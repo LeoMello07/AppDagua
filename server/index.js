@@ -4,7 +4,9 @@
  */
 const { Server } = require('socket.io');
 
-const PORT = 3001;
+// Em produção, o host (Render, Railway, etc.) define a porta via variável de ambiente.
+// Localmente, cai no 3001.
+const PORT = process.env.PORT || 3001;
 
 // Cria o servidor Socket.io já ouvindo na porta 3001.
 // cors: '*' libera qualquer app a conectar (ok para desenvolvimento).

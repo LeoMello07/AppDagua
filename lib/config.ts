@@ -8,5 +8,4 @@
 
 // export const CHAT_SERVER_URL = 'http://192.168.0.150:3001';
 
-export const CHAT_SERVER_URL =
-  "https://spell-analyzed-calvin-navy.trycloudflare.com";
+export const CHAT_SERVER_URL = "https://appdagua.onrender.com";
