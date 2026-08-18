@@ -1,0 +1,13 @@
+{
+  "name": "appdagua-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor de chat em tempo real do AppDagua (Node + Socket.io)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  }
+}
